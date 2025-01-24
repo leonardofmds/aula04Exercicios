@@ -8,7 +8,7 @@ public class Pessoa {
 	private String nome;
 
 	public Pessoa() {
-		// TODO Auto-generated constructor stub
+		this.id = UUID.randomUUID();
 	}
 
 	public Pessoa(String nome) {

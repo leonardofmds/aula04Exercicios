@@ -7,7 +7,7 @@ public class Setor {
 	private String descricao;
 
 	public Setor() {
-
+		this.id = UUID.randomUUID();
 	}
 
 	public Setor(String descricao) {

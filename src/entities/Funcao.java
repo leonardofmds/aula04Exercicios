@@ -4,10 +4,10 @@ import java.util.UUID;
 
 public class Funcao {
 	private UUID id;
-	private String nome;
+	private String nome; 
 	
 	public Funcao() {
-		// TODO Auto-generated constructor stub
+		this.id = UUID.randomUUID();
 	}
 	
 	public Funcao(String nome) {
