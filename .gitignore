@@ -1,0 +1,34 @@
+# Diretórios e arquivos de build
+target/
+build/
+*.class
+
+# Configuração do IDE
+*.iml
+.idea/
+*.classpath
+*.project
+*.settings/
+
+# Logs
+*.log
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários ou de cache
+*.tmp
+*.bak
+*.swp
+
+# Dependências baixadas por ferramentas de build
+.mvn/
+.gradle/
+*.war
+*.ear
+
+# Arquivos de configuração locais
+application.properties
+application.yml
+.env
