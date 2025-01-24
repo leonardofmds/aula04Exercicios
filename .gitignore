@@ -32,3 +32,4 @@ Thumbs.db
 application.properties
 application.yml
 .env
+/bin/
